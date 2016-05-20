@@ -1,4 +1,4 @@
-# Loading Data
+# Loading Vector Data
 
 ## Loading CSV (and other delineated data)
 
@@ -34,6 +34,24 @@ Can see the definition of the CRS in the very bottom field to compare different
 
 ## Excel(xlsx)
 
+## Click and drag from OS browser
+
+![](C:\OSGIS\video\loadexcel1.gif)
+
+## Create geometry from columns
+
+![](C:\OSGIS\video\loadexcel2.gif)
+
+
 ## Shape Files
 
+## Drag and Drop
+![](C:\OSGIS\video\loadshp.gif)
+## Add Vector Layer button
+![](C:\OSGIS\video\loadshp2.gif)
+## Create Spatial Index
+![](C:\OSGIS\video\shpspatialindex.gif)
+
 ## GeoJSON
+
+![](C:\OSGIS\video\loadgeojson.gif)
