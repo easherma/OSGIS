@@ -36,22 +36,22 @@ Can see the definition of the CRS in the very bottom field to compare different
 
 ## Click and drag from OS browser
 
-![](C:\OSGIS\video\loadexcel1.gif)
+![](https://github.com/easherma/OSGIS/blob/master/video/loadexcel1.gif)
 
 ## Create geometry from columns
 
-![](C:\OSGIS\video\loadexcel2.gif)
+![](https://github.com/easherma/OSGIS/blob/master/video/loadexcel2.gif)
 
 
 ## Shape Files
 
 ## Drag and Drop
-![](C:\OSGIS\video\loadshp.gif)
+![](https://github.com/easherma/OSGIS/blob/master/video/loadshp.gif)
 ## Add Vector Layer button
-![](C:\OSGIS\video\loadshp2.gif)
+![](https://github.com/easherma/OSGIS/blob/master/video/loadshp2.gif)
 ## Create Spatial Index
-![](C:\OSGIS\video\shpspatialindex.gif)
+![](https://github.com/easherma/OSGIS/blob/master/video/shpspatialindex.gif)
 
 ## GeoJSON
 
-![](C:\OSGIS\video\loadgeojson.gif)
+![](https://github.com/easherma/OSGIS/blob/master/video/loadgeojson.gif)
