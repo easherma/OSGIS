@@ -4,6 +4,8 @@
 
 Adding in delimited data
 
+![](C:\OSGIS\video\loadcsv.gif)
+
 The big comma represents delimited (e.g. "comma" delimited or csv) files
 
 The "create layer" window has a number of format-specific options, such as indicating what delimiter is used, allows users to skip a given number of rows, indicate geometric information present in the table (e.g. auto-detecting
@@ -18,7 +20,7 @@ Clicking on "Watch file" -- e.g. if you have the file open in another
 window, QGIS will automatically update the version
 
 
-## Specify Your CRS ASAP 
+## Specify Your CRS ASAP
 After adding CSV, need to specify a Coordinate Reference System (or
 "CRS") in the "Coordinate Reference System Selector"
 
