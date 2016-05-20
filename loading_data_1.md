@@ -4,7 +4,7 @@
 
 Adding in delimited data
 
-![](C:\OSGIS\video\loadcsv.gif)
+![Load CSV Demo](https://github.com/easherma/OSGIS/blob/master/video/loadcsv.gif)
 
 The big comma represents delimited (e.g. "comma" delimited or csv) files
 
