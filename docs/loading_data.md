@@ -27,12 +27,14 @@ You can also add layers using the 'Manage Toolbar Layers' toolbar or under the L
 
 ### These all do the same thing
 
-![Browser](.\images\AddVector.png) **=** ![Browser](.\images\AddVector2.png) **=** <img src=".\video\vectorAdd.gif" alt="Drawing" style="width: 46%;"/>
+![Browser](.\images\AddVector.png) **=** ![Browser](.\images\AddVector2.png) **=**
+
+![Browser](.\video\vectorAdd.gif)
 
 
 ## Connect to DB
 
-Special case, either talk about it here or just link to seperate section. 
+Special case, either talk about it here or just link to seperate section.
 
 ## Spatial Indexing
 Clicking on "Use spatial index" allows for faster referencing of layer
