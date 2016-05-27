@@ -8,7 +8,7 @@
   
   
   
-  <title>Vector Data - QGIS @ Chapin Hall</title>
+  <title>Adding Basemaps - QGIS @ Chapin Hall</title>
   
 
   <link rel="shortcut icon" href="../img/favicon.ico">
@@ -23,9 +23,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Vector Data";
-    var mkdocs_page_input_path = "loading_vector_data_1.md";
-    var mkdocs_page_url = "/loading_vector_data_1/";
+    var mkdocs_page_name = "Adding Basemaps";
+    var mkdocs_page_input_path = "loading_basemaps_and_other_external_data.md";
+    var mkdocs_page_url = "/loading_basemaps_and_other_external_data/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
@@ -74,42 +74,26 @@
 
         
             
-    <li class="toctree-l1 current">
-        <a class="current" href="./">Vector Data</a>
-        
-            <ul>
-            
-                <li class="toctree-l3"><a href="#loading-vector-data">Loading Vector Data</a></li>
-                
-                    <li><a class="toctree-l4" href="#loading-csv-and-other-delineated-data">Loading CSV (and other delineated data)</a></li>
-                
-                    <li><a class="toctree-l4" href="#watch-a-file">Watch a file</a></li>
-                
-                    <li><a class="toctree-l4" href="#excelxlsx">Excel(xlsx)</a></li>
-                
-                    <li><a class="toctree-l4" href="#click-and-drag-from-os-browser">Click and drag from OS browser</a></li>
-                
-                    <li><a class="toctree-l4" href="#create-geometry-from-columns">Create geometry from columns</a></li>
-                
-                    <li><a class="toctree-l4" href="#shape-files">Shape Files</a></li>
-                
-                    <li><a class="toctree-l4" href="#drag-and-drop">Drag and Drop</a></li>
-                
-                    <li><a class="toctree-l4" href="#add-vector-layer-button">Add Vector Layer button</a></li>
-                
-                    <li><a class="toctree-l4" href="#create-spatial-index">Create Spatial Index</a></li>
-                
-                    <li><a class="toctree-l4" href="#geojson">GeoJSON</a></li>
-                
-            
-            </ul>
+    <li class="toctree-l1 ">
+        <a class="" href="../loading_vector_data_1/">Vector Data</a>
         
     </li>
 
         
             
-    <li class="toctree-l1 ">
-        <a class="" href="../loading_basemaps_and_other_external_data/">Adding Basemaps</a>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Adding Basemaps</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#loading-basemaps-other-external-source">Loading basemaps, other External Source</a></li>
+                
+                    <li><a class="toctree-l4" href="#basemaps-using-the-openlayers-plugin">Basemaps using the OpenLayers Plugin</a></li>
+                
+                    <li><a class="toctree-l4" href="#web-feature-services-etc">Web Feature Services, etc.</a></li>
+                
+            
+            </ul>
         
     </li>
 
@@ -209,7 +193,7 @@
         
       
     
-    <li>Vector Data</li>
+    <li>Adding Basemaps</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -219,30 +203,9 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="loading-vector-data">Loading Vector Data</h1>
-<h2 id="loading-csv-and-other-delineated-data">Loading CSV (and other delineated data)</h2>
-<p>Adding in delimited data</p>
-<p><img alt="Load CSV Demo" src="../video/loadcsv.gif" /></p>
-<p>The big comma represents delimited (e.g. "comma" delimited or csv) files</p>
-<p>The "create layer" window has a number of format-specific options, such as indicating what delimiter is used, allows users to skip a given number of rows, indicate geometric information present in the table (e.g. auto-detecting
-latitude and longitude)</p>
-<h2 id="watch-a-file">Watch a file</h2>
-<p>Clicking on "Watch file" -- e.g. if you have the file open in another
-window, QGIS will automatically update the version</p>
-<h2 id="excelxlsx">Excel(xlsx)</h2>
-<h2 id="click-and-drag-from-os-browser">Click and drag from OS browser</h2>
-<p><img alt="" src="../video/loadexcel1.gif" /></p>
-<h2 id="create-geometry-from-columns">Create geometry from columns</h2>
-<p><img alt="" src="../video/loadexcel2.gif" /></p>
-<h2 id="shape-files">Shape Files</h2>
-<h2 id="drag-and-drop">Drag and Drop</h2>
-<p><img alt="" src="../video/loadshp.gif" /></p>
-<h2 id="add-vector-layer-button">Add Vector Layer button</h2>
-<p><img alt="" src="../video/loadshp2.gif" /></p>
-<h2 id="create-spatial-index">Create Spatial Index</h2>
-<p><img alt="" src="../video/shpspatialindex.gif" /></p>
-<h2 id="geojson">GeoJSON</h2>
-<p><img alt="" src="../video/loadgeojson.gif" /></p>
+                <h1 id="loading-basemaps-other-external-source">Loading basemaps, other External Source</h1>
+<h2 id="basemaps-using-the-openlayers-plugin">Basemaps using the OpenLayers Plugin</h2>
+<h2 id="web-feature-services-etc">Web Feature Services, etc.</h2>
               
             </div>
           </div>
@@ -250,10 +213,10 @@ window, QGIS will automatically update the version</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../loading_basemaps_and_other_external_data/" class="btn btn-neutral float-right" title="Adding Basemaps">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../loading_from_DB/" class="btn btn-neutral float-right" title="Loading From Databases">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../loading_data/" class="btn btn-neutral" title="Loading data"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../loading_vector_data_1/" class="btn btn-neutral" title="Vector Data"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -279,10 +242,10 @@ window, QGIS will automatically update the version</p>
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../loading_data/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../loading_vector_data_1/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../loading_basemaps_and_other_external_data/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../loading_from_DB/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

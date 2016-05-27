@@ -8,7 +8,7 @@
   
   
   
-  <title>Vector Data - QGIS @ Chapin Hall</title>
+  <title>Selecting and Modifying Data - QGIS @ Chapin Hall</title>
   
 
   <link rel="shortcut icon" href="../img/favicon.ico">
@@ -23,9 +23,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Vector Data";
-    var mkdocs_page_input_path = "loading_vector_data_1.md";
-    var mkdocs_page_url = "/loading_vector_data_1/";
+    var mkdocs_page_name = "Selecting and Modifying Data";
+    var mkdocs_page_input_path = "Selecting_and_Modifying Data.md";
+    var mkdocs_page_url = "/Selecting_and_Modifying Data/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
@@ -74,35 +74,8 @@
 
         
             
-    <li class="toctree-l1 current">
-        <a class="current" href="./">Vector Data</a>
-        
-            <ul>
-            
-                <li class="toctree-l3"><a href="#loading-vector-data">Loading Vector Data</a></li>
-                
-                    <li><a class="toctree-l4" href="#loading-csv-and-other-delineated-data">Loading CSV (and other delineated data)</a></li>
-                
-                    <li><a class="toctree-l4" href="#watch-a-file">Watch a file</a></li>
-                
-                    <li><a class="toctree-l4" href="#excelxlsx">Excel(xlsx)</a></li>
-                
-                    <li><a class="toctree-l4" href="#click-and-drag-from-os-browser">Click and drag from OS browser</a></li>
-                
-                    <li><a class="toctree-l4" href="#create-geometry-from-columns">Create geometry from columns</a></li>
-                
-                    <li><a class="toctree-l4" href="#shape-files">Shape Files</a></li>
-                
-                    <li><a class="toctree-l4" href="#drag-and-drop">Drag and Drop</a></li>
-                
-                    <li><a class="toctree-l4" href="#add-vector-layer-button">Add Vector Layer button</a></li>
-                
-                    <li><a class="toctree-l4" href="#create-spatial-index">Create Spatial Index</a></li>
-                
-                    <li><a class="toctree-l4" href="#geojson">GeoJSON</a></li>
-                
-            
-            </ul>
+    <li class="toctree-l1 ">
+        <a class="" href="../loading_vector_data_1/">Vector Data</a>
         
     </li>
 
@@ -159,8 +132,25 @@
 
         
             
-    <li class="toctree-l1 ">
-        <a class="" href="../Selecting_and_Modifying%20Data/">Selecting and Modifying Data</a>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Selecting and Modifying Data</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#selecting-and-modifying-data">Selecting and Modifying Data</a></li>
+                
+                    <li><a class="toctree-l4" href="#selecting-data-by-hand">Selecting Data by 'Hand'</a></li>
+                
+                    <li><a class="toctree-l4" href="#select-by-expression">Select by Expression</a></li>
+                
+                    <li><a class="toctree-l4" href="#geoprocessing">Geoprocessing!</a></li>
+                
+                    <li><a class="toctree-l4" href="#joining-data-by-attribute">Joining Data By Attribute</a></li>
+                
+                    <li><a class="toctree-l4" href="#joining-data-by-spatial-location">Joining Data By Spatial Location</a></li>
+                
+            
+            </ul>
         
     </li>
 
@@ -205,11 +195,11 @@
     
       
         
-          <li>Loading Data &raquo;</li>
+          <li>Managing, Manipulating, Creating Data &raquo;</li>
         
       
     
-    <li>Vector Data</li>
+    <li>Selecting and Modifying Data</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -219,30 +209,18 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="loading-vector-data">Loading Vector Data</h1>
-<h2 id="loading-csv-and-other-delineated-data">Loading CSV (and other delineated data)</h2>
-<p>Adding in delimited data</p>
-<p><img alt="Load CSV Demo" src="../video/loadcsv.gif" /></p>
-<p>The big comma represents delimited (e.g. "comma" delimited or csv) files</p>
-<p>The "create layer" window has a number of format-specific options, such as indicating what delimiter is used, allows users to skip a given number of rows, indicate geometric information present in the table (e.g. auto-detecting
-latitude and longitude)</p>
-<h2 id="watch-a-file">Watch a file</h2>
-<p>Clicking on "Watch file" -- e.g. if you have the file open in another
-window, QGIS will automatically update the version</p>
-<h2 id="excelxlsx">Excel(xlsx)</h2>
-<h2 id="click-and-drag-from-os-browser">Click and drag from OS browser</h2>
-<p><img alt="" src="../video/loadexcel1.gif" /></p>
-<h2 id="create-geometry-from-columns">Create geometry from columns</h2>
-<p><img alt="" src="../video/loadexcel2.gif" /></p>
-<h2 id="shape-files">Shape Files</h2>
-<h2 id="drag-and-drop">Drag and Drop</h2>
-<p><img alt="" src="../video/loadshp.gif" /></p>
-<h2 id="add-vector-layer-button">Add Vector Layer button</h2>
-<p><img alt="" src="../video/loadshp2.gif" /></p>
-<h2 id="create-spatial-index">Create Spatial Index</h2>
-<p><img alt="" src="../video/shpspatialindex.gif" /></p>
-<h2 id="geojson">GeoJSON</h2>
-<p><img alt="" src="../video/loadgeojson.gif" /></p>
+                <h1 id="selecting-and-modifying-data">Selecting and Modifying Data</h1>
+<h2 id="selecting-data-by-hand">Selecting Data by 'Hand'</h2>
+<p>ESPG etc</p>
+<h2 id="select-by-expression">Select by Expression</h2>
+<p>Intersections, etc</p>
+<h3 id="modifying-attribute-data">Modifying Attribute Data</h3>
+<p>Everything in it's right place</p>
+<h2 id="geoprocessing">Geoprocessing!</h2>
+<p>Buffer
+Union</p>
+<h2 id="joining-data-by-attribute">Joining Data By Attribute</h2>
+<h2 id="joining-data-by-spatial-location">Joining Data By Spatial Location</h2>
               
             </div>
           </div>
@@ -250,10 +228,10 @@ window, QGIS will automatically update the version</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../loading_basemaps_and_other_external_data/" class="btn btn-neutral float-right" title="Adding Basemaps">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../Concepts/" class="btn btn-neutral float-right" title="Concepts">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../loading_data/" class="btn btn-neutral" title="Loading data"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Sharing_Your_Map/" class="btn btn-neutral" title="Sharing Your Map"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -279,10 +257,10 @@ window, QGIS will automatically update the version</p>
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../loading_data/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../Sharing_Your_Map/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../loading_basemaps_and_other_external_data/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../Concepts/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
