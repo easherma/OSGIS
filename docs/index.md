@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+# OSGISOMG?
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+## **O**pen **S**ource:
 
-## Commands
+Free Software is not Free Beer
+## **G**eographic **I**nformation **S**ystems:
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+Everything in it's right place
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## **O**h **M**y **G**od:
+![](http://media.urbandictionary.com/image/page/omg-48353.jpg)
+![OMG](http://i.giphy.com/ZXE8IGiJYrXOM.gif)
