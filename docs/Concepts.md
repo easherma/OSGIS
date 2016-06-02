@@ -1,5 +1,9 @@
 # Concepts
 
+## SQL queries
+
+## Database Connections
+
 ## Coordinate Reference Systems (CRS)
 
 ESPG etc
@@ -9,3 +13,4 @@ ESPG etc
 ## Geometric Predicates
 
 ## QGIS Plugins
+Plugin repository

@@ -1,34 +1,51 @@
 # Loading from Databases
 
 ## Database Connections
+Accessing data stored in a relational database works a bit differently than loading a flat file.
 
-## PostGIS
-Clicking on "Watch file" -- e.g. if you have the file open in another
-window, QGIS will automatically update the version
+You must create a connection to the database.
 
-* Working with Postgres
+Once that connection is established you can load, query, and modify that data directly, using QGIS as an interface.
 
-o We downloaded PostgreSQL from enterprisedb.com o The name "PostgreSQL" has its origins in being a system came after the INteractive Graphics REtrieval System ("Ingres") system. Thus "Post-Ingres" or "Postgres" for short, although the official name still is PostgreSQL.
+## Postgres with PostGIS
 
-o We have an installed template
 
-o From in QGIS, can click on the +Postgres button (with the elephant) on the left
+### Working with Postgres
 
-* We point to our template, port, username and password
+Postgres is a popular open source relational database system.
 
-* The outcome is that we have established a connection and can access the information here (although we only have a template schema so far, and not data!)
+PostGIS is an extension for Postgres that adds geospatial data types to any Postgres database, along with a suite of powerful geosptial tools.
 
-o Now, when we save layers, we can save it to our DB
+### Making a Connection
 
-* E.g., reproject a layer, choose to save it to a database, select the schema and pick a name...
+We point to our template, port, username and password
 
-o Within PostGIS we have the ability to index geometries for our layers which speeds recall and query for spatial operations, as compared to a flat file
+The outcome is that we have established a connection and can access the information here (although we only have a template schema so far, and not data!)
 
-o When opening a totally new project, the PostGIS connect will persist, and can even bring in its tables
+### Perks & Pitfalls of being connected
 
-* One consideration though is permissions, where we may or may not want to allow users to make changes to centrally-accessible
+Now, when we save layers, we can save it directly to our DB.
 
-o Can use PostGIS scripting for queries, e.g. "SELECT ST_BUFFER(ST_TRANSFORM("geom", 3435), 300) FROM potholes"
+E.g., reproject a layer, choose to save it to a database, select the schema and pick a name...
+
+Within PostGIS we have the ability to index geometries for our layers which speeds recall and query for spatial operations, as compared to a flat file
+
+When opening a totally new project, the PostGIS connect will persist, and can even bring in its tables
+
+One consideration though is permissions, where we may or may not want to allow users to make changes to centrally-accessible
+
+### Loading data from a Database connection
+
+## From the sidebar
+![](video/loadDB1.gif)
+## Using the QGIS DB Manager
+
+The DB Manager has a bunch of useful features, it allows you to browse and preview data before adding it to the canvas and has a decent system for writing and saving SQL queries. 
+![](video/loadDB2.gif)
+
+### Query Example
+
+Can use PostGIS scripting for queries, e.g. "SELECT ST_BUFFER(ST_TRANSFORM("geom", 3435), 300) FROM potholes"
 
 * This command reprojects the data, then creates a buffer. Here, we don't need to create something for each intermediate step. In effect, QGIS can then just become a viewer rather than a tool.
 
@@ -40,12 +57,14 @@ o Can use PostGIS scripting for queries, e.g. "SELECT ST_BUFFER(ST_TRANSFORM("ge
 
 * There are ways to install query builder plugins in QGIS to write queries here rather than having to jump out of QGIS and back into PostGIS
 
-![](video/loadDB1.gif)
 
-![](video/loadDB2.gif)
 
 ## SpatialLite
 
+Spatiallite is a similar setup to Posgres/PostGIS, but it's built of SQLite. Its small and lightweight, with the entire database being stored as a single file.
+
+It can do many of the similar geospatial queries as PostGIS, but in general is not as performant.
+
 ## GeoPackage
 
-What is GeoPackage? It's a version of SpatialLite customized. Smaller, maybe faster? Not sure why people aren't using these widely yet but no reason not to. 
+What is GeoPackage? It's a version of SpatialLite customized. Smaller, maybe faster? Not sure why people aren't using these widely yet but no reason not to.
