@@ -40,6 +40,12 @@ o Can use PostGIS scripting for queries, e.g. "SELECT ST_BUFFER(ST_TRANSFORM("ge
 
 * There are ways to install query builder plugins in QGIS to write queries here rather than having to jump out of QGIS and back into PostGIS
 
+![](video/loadDB1.gif)
+
+![](video/loadDB2.gif)
+
 ## SpatialLite
 
 ## GeoPackage
+
+What is GeoPackage? It's a version of SpatialLite customized. Smaller, maybe faster? Not sure why people aren't using these widely yet but no reason not to. 

@@ -7,3 +7,5 @@ ESPG etc
 ### Geographic vs Projected systems
 
 ## Geometric Predicates
+
+## QGIS Plugins
