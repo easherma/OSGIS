@@ -18,6 +18,10 @@ categorized (good for categorical),
 
 graduated (good for numeric data)
 
+![](video/stylingLayers_removefill.gif)
+
+![](video/stylingLayers_catdata.gif)
+
 Pick a column to classify the data
 
 Can specify a number of classes and a scheme for dividing them, e.g. "equal interval", "quantile", "natural breaks", and can manually edit these
@@ -32,9 +36,17 @@ Heat-map (simple to use)
 
 Can play with rendering quality, color ramp, weight of different points
 
+![](video/stylingLayers_grad.gif)
+
+
+
+
+
 ## Fancy Time Animation!
 
-Creating time animation
+
+![](video/timeAnimation_potholes.gif)
+
 
 Add the "TimeManager" plugin
 
@@ -47,3 +59,5 @@ Add a layer: select a layer, column of interest (and time units if desired)
 Select how to play back e.g. time increments, speed of display
 
 Have a button to "export video"
+
+![](video/timeAnimation_potholestime.gif)

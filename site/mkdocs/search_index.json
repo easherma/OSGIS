@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/", 
-            "text": "OSGIS\n\n\nGuides for basic Open Source GIS tasks", 
+            "text": "OSGIS\n\n\nGuides for basic Open Source GIS tasks\n\n\nMostly Vector data, social science/civic tech focus", 
             "title": "Home"
         }, 
         {
             "location": "/#osgis", 
-            "text": "Guides for basic Open Source GIS tasks", 
+            "text": "Guides for basic Open Source GIS tasks  Mostly Vector data, social science/civic tech focus", 
             "title": "OSGIS"
         }, 
         {
@@ -67,7 +67,7 @@
         }, 
         {
             "location": "/loading_vector_data_1/", 
-            "text": "Loading Vector Data\n\n\nLoading CSV (and other delineated data)\n\n\nAdding in delimited data\n\n\n\n\nThe big comma represents delimited (e.g. \"comma\" delimited or csv) files\n\n\nThe \"create layer\" window has a number of format-specific options, such as indicating what delimiter is used, allows users to skip a given number of rows, indicate geometric information present in the table (e.g. auto-detecting\nlatitude and longitude)\n\n\nWatch a file\n\n\nClicking on \"Watch file\" -- e.g. if you have the file open in another\nwindow, QGIS will automatically update the version\n\n\nExcel(xlsx)\n\n\nClick and drag from OS browser\n\n\n\n\nCreate geometry from columns\n\n\n\n\nShape Files\n\n\nDrag and Drop\n\n\n\n\nAdd Vector Layer button\n\n\n\n\nCreate Spatial Index\n\n\n\n\nGeoJSON", 
+            "text": "Loading Vector Data\n\n\nLoading CSV (and other delineated data)\n\n\n\n\nThe big comma icon represents delimited (e.g. \"comma\" delimited or csv) files\n\n\nThe \"create layer\" window has a number of format-specific options, such as indicating what delimiter is used, allows users to skip a given number of rows, and indicate geometric information present in the table. Our case, QGIS automatically found our Latitude and Longitude columns and suggested them to be used to create our geometric data for this layer.\n\n\nIf you are loading in data that has no inherent geometry, simply select the 'No geometry' option.\n\n\nWatch a file\n\n\nIf you choose to watch the file, QGIS will automatically update the data in the layer if the csv file is modified.\n\n\nExcel(xlsx)\n\n\nQgis can handle xls and xlsx files, but plays much nicer with the newer xlsx format.\n\n\nClick and drag from OS browser\n\n\n\n\nCreate geometry from columns\n\n\n\n\nShapefiles\n\n\nShapefiles are a ubiquitous, yet antiquated  geospatial file format. Despite their many limitations and the annoying problems they present, you will likely still come across them.\n\n\nDrag and Drop\n\n\n\n\nAdd Vector Layer button\n\n\n\n\nCreate Spatial Index\n\n\n\n\nGeoJSON\n\n\nGeoJSON is a widely geospatial data format, most prevalent in web development. It allows for a human and machine-readable exchange of data. These files are often larger than other formats and cannot be directly edited by QGIS, but they are very convenient otherwise.", 
             "title": "Vector Data"
         }, 
         {
@@ -77,17 +77,17 @@
         }, 
         {
             "location": "/loading_vector_data_1/#loading-csv-and-other-delineated-data", 
-            "text": "Adding in delimited data   The big comma represents delimited (e.g. \"comma\" delimited or csv) files  The \"create layer\" window has a number of format-specific options, such as indicating what delimiter is used, allows users to skip a given number of rows, indicate geometric information present in the table (e.g. auto-detecting\nlatitude and longitude)", 
+            "text": "The big comma icon represents delimited (e.g. \"comma\" delimited or csv) files  The \"create layer\" window has a number of format-specific options, such as indicating what delimiter is used, allows users to skip a given number of rows, and indicate geometric information present in the table. Our case, QGIS automatically found our Latitude and Longitude columns and suggested them to be used to create our geometric data for this layer.  If you are loading in data that has no inherent geometry, simply select the 'No geometry' option.", 
             "title": "Loading CSV (and other delineated data)"
         }, 
         {
             "location": "/loading_vector_data_1/#watch-a-file", 
-            "text": "Clicking on \"Watch file\" -- e.g. if you have the file open in another\nwindow, QGIS will automatically update the version", 
+            "text": "If you choose to watch the file, QGIS will automatically update the data in the layer if the csv file is modified.", 
             "title": "Watch a file"
         }, 
         {
             "location": "/loading_vector_data_1/#excelxlsx", 
-            "text": "", 
+            "text": "Qgis can handle xls and xlsx files, but plays much nicer with the newer xlsx format.", 
             "title": "Excel(xlsx)"
         }, 
         {
@@ -101,9 +101,9 @@
             "title": "Create geometry from columns"
         }, 
         {
-            "location": "/loading_vector_data_1/#shape-files", 
-            "text": "", 
-            "title": "Shape Files"
+            "location": "/loading_vector_data_1/#shapefiles", 
+            "text": "Shapefiles are a ubiquitous, yet antiquated  geospatial file format. Despite their many limitations and the annoying problems they present, you will likely still come across them.", 
+            "title": "Shapefiles"
         }, 
         {
             "location": "/loading_vector_data_1/#drag-and-drop", 
@@ -122,12 +122,12 @@
         }, 
         {
             "location": "/loading_vector_data_1/#geojson", 
-            "text": "", 
+            "text": "GeoJSON is a widely geospatial data format, most prevalent in web development. It allows for a human and machine-readable exchange of data. These files are often larger than other formats and cannot be directly edited by QGIS, but they are very convenient otherwise.", 
             "title": "GeoJSON"
         }, 
         {
             "location": "/loading_basemaps_and_other_external_data/", 
-            "text": "Loading basemaps, other External Source\n\n\nBasemaps using the OpenLayers Plugin\n\n\nWeb Feature Services, etc.", 
+            "text": "Loading basemaps, other External Source\n\n\nBasemaps using the OpenLayers Plugin\n\n\nInstall the OpenLayers Plugin\n\n\n\n\nAdd basemap as a layer", 
             "title": "Adding Basemaps"
         }, 
         {
@@ -141,13 +141,18 @@
             "title": "Basemaps using the OpenLayers Plugin"
         }, 
         {
-            "location": "/loading_basemaps_and_other_external_data/#web-feature-services-etc", 
+            "location": "/loading_basemaps_and_other_external_data/#install-the-openlayers-plugin", 
             "text": "", 
-            "title": "Web Feature Services, etc."
+            "title": "Install the OpenLayers Plugin"
+        }, 
+        {
+            "location": "/loading_basemaps_and_other_external_data/#add-basemap-as-a-layer", 
+            "text": "", 
+            "title": "Add basemap as a layer"
         }, 
         {
             "location": "/loading_from_DB/", 
-            "text": "Loading from Databases\n\n\nDatabase Connections\n\n\nPostGIS\n\n\nClicking on \"Watch file\" -- e.g. if you have the file open in another\nwindow, QGIS will automatically update the version\n\n\n\n\nWorking with Postgres\n\n\n\n\no We downloaded PostgreSQL from enterprisedb.com o The name \"PostgreSQL\" has its origins in being a system came after the INteractive Graphics REtrieval System (\"Ingres\") system. Thus \"Post-Ingres\" or \"Postgres\" for short, although the official name still is PostgreSQL.\n\n\no We have an installed template\n\n\no From in QGIS, can click on the +Postgres button (with the elephant) on the left\n\n\n\n\n\n\nWe point to our template, port, username and password\n\n\n\n\n\n\nThe outcome is that we have established a connection and can access the information here (although we only have a template schema so far, and not data!)\n\n\n\n\n\n\no Now, when we save layers, we can save it to our DB\n\n\n\n\nE.g., reproject a layer, choose to save it to a database, select the schema and pick a name...\n\n\n\n\no Within PostGIS we have the ability to index geometries for our layers which speeds recall and query for spatial operations, as compared to a flat file\n\n\no When opening a totally new project, the PostGIS connect will persist, and can even bring in its tables\n\n\n\n\nOne consideration though is permissions, where we may or may not want to allow users to make changes to centrally-accessible\n\n\n\n\no Can use PostGIS scripting for queries, e.g. \"SELECT ST_BUFFER(ST_TRANSFORM(\"geom\", 3435), 300) FROM potholes\"\n\n\n\n\n\n\nThis command reprojects the data, then creates a buffer. Here, we don't need to create something for each intermediate step. In effect, QGIS can then just become a viewer rather than a tool.\n\n\n\n\n\n\nCould also add CREATE TABLE buffer AS (.) around the above to create a new table. Just need to refresh the connection for this to reappear.\n\n\n\n\n\n\nOr, could add SELECT * FROM someothertable WHERE someothertable.geom INTERSECTS (.) to use the buffer as a subquery to an operation that identifies the intersection\n\n\n\n\n\n\nOperations are remarkably fast\n\n\n\n\n\n\nThere are ways to install query builder plugins in QGIS to write queries here rather than having to jump out of QGIS and back into PostGIS\n\n\n\n\n\n\nSpatialLite\n\n\nGeoPackage", 
+            "text": "Loading from Databases\n\n\nDatabase Connections\n\n\nAccessing data stored in a relational database works a bit differently than loading a flat file.\n\n\nYou must create a connection to the database.\n\n\nOnce that connection is established you can load, query, and modify that data directly, using QGIS as an interface.\n\n\nPostgres with PostGIS\n\n\nWorking with Postgres\n\n\nPostgres is a popular open source relational database system.\n\n\nPostGIS is an extension for Postgres that adds geospatial data types to any Postgres database, along with a suite of powerful geosptial tools.\n\n\nMaking a Connection\n\n\nWe point to our template, port, username and password\n\n\nThe outcome is that we have established a connection and can access the information here (although we only have a template schema so far, and not data!)\n\n\nPerks \n Pitfalls of being connected\n\n\nNow, when we save layers, we can save it directly to our DB.\n\n\nE.g., reproject a layer, choose to save it to a database, select the schema and pick a name...\n\n\nWithin PostGIS we have the ability to index geometries for our layers which speeds recall and query for spatial operations, as compared to a flat file\n\n\nWhen opening a totally new project, the PostGIS connect will persist, and can even bring in its tables\n\n\nOne consideration though is permissions, where we may or may not want to allow users to make changes to centrally-accessible\n\n\nLoading data from a Database connection\n\n\nFrom the sidebar\n\n\n\n\nUsing the QGIS DB Manager\n\n\nThe DB Manager has a bunch of useful features, it allows you to browse and preview data before adding it to the canvas and has a decent system for writing and saving SQL queries. \n\n\n\nQuery Example\n\n\nCan use PostGIS scripting for queries, e.g. \"SELECT ST_BUFFER(ST_TRANSFORM(\"geom\", 3435), 300) FROM potholes\"\n\n\n\n\n\n\nThis command reprojects the data, then creates a buffer. Here, we don't need to create something for each intermediate step. In effect, QGIS can then just become a viewer rather than a tool.\n\n\n\n\n\n\nCould also add CREATE TABLE buffer AS (.) around the above to create a new table. Just need to refresh the connection for this to reappear.\n\n\n\n\n\n\nOr, could add SELECT * FROM someothertable WHERE someothertable.geom INTERSECTS (.) to use the buffer as a subquery to an operation that identifies the intersection\n\n\n\n\n\n\nOperations are remarkably fast\n\n\n\n\n\n\nThere are ways to install query builder plugins in QGIS to write queries here rather than having to jump out of QGIS and back into PostGIS\n\n\n\n\n\n\nSpatialLite\n\n\nSpatiallite is a similar setup to Posgres/PostGIS, but it's built of SQLite. Its small and lightweight, with the entire database being stored as a single file.\n\n\nIt can do many of the similar geospatial queries as PostGIS, but in general is not as performant.\n\n\nGeoPackage\n\n\nWhat is GeoPackage? It's a version of SpatialLite customized. Smaller, maybe faster? Not sure why people aren't using these widely yet but no reason not to.", 
             "title": "Loading From Databases"
         }, 
         {
@@ -157,27 +162,62 @@
         }, 
         {
             "location": "/loading_from_DB/#database-connections", 
-            "text": "", 
+            "text": "Accessing data stored in a relational database works a bit differently than loading a flat file.  You must create a connection to the database.  Once that connection is established you can load, query, and modify that data directly, using QGIS as an interface.", 
             "title": "Database Connections"
         }, 
         {
-            "location": "/loading_from_DB/#postgis", 
-            "text": "Clicking on \"Watch file\" -- e.g. if you have the file open in another\nwindow, QGIS will automatically update the version   Working with Postgres   o We downloaded PostgreSQL from enterprisedb.com o The name \"PostgreSQL\" has its origins in being a system came after the INteractive Graphics REtrieval System (\"Ingres\") system. Thus \"Post-Ingres\" or \"Postgres\" for short, although the official name still is PostgreSQL.  o We have an installed template  o From in QGIS, can click on the +Postgres button (with the elephant) on the left    We point to our template, port, username and password    The outcome is that we have established a connection and can access the information here (although we only have a template schema so far, and not data!)    o Now, when we save layers, we can save it to our DB   E.g., reproject a layer, choose to save it to a database, select the schema and pick a name...   o Within PostGIS we have the ability to index geometries for our layers which speeds recall and query for spatial operations, as compared to a flat file  o When opening a totally new project, the PostGIS connect will persist, and can even bring in its tables   One consideration though is permissions, where we may or may not want to allow users to make changes to centrally-accessible   o Can use PostGIS scripting for queries, e.g. \"SELECT ST_BUFFER(ST_TRANSFORM(\"geom\", 3435), 300) FROM potholes\"    This command reprojects the data, then creates a buffer. Here, we don't need to create something for each intermediate step. In effect, QGIS can then just become a viewer rather than a tool.    Could also add CREATE TABLE buffer AS (.) around the above to create a new table. Just need to refresh the connection for this to reappear.    Or, could add SELECT * FROM someothertable WHERE someothertable.geom INTERSECTS (.) to use the buffer as a subquery to an operation that identifies the intersection    Operations are remarkably fast    There are ways to install query builder plugins in QGIS to write queries here rather than having to jump out of QGIS and back into PostGIS", 
-            "title": "PostGIS"
+            "location": "/loading_from_DB/#postgres-with-postgis", 
+            "text": "", 
+            "title": "Postgres with PostGIS"
+        }, 
+        {
+            "location": "/loading_from_DB/#working-with-postgres", 
+            "text": "Postgres is a popular open source relational database system.  PostGIS is an extension for Postgres that adds geospatial data types to any Postgres database, along with a suite of powerful geosptial tools.", 
+            "title": "Working with Postgres"
+        }, 
+        {
+            "location": "/loading_from_DB/#making-a-connection", 
+            "text": "We point to our template, port, username and password  The outcome is that we have established a connection and can access the information here (although we only have a template schema so far, and not data!)", 
+            "title": "Making a Connection"
+        }, 
+        {
+            "location": "/loading_from_DB/#perks-pitfalls-of-being-connected", 
+            "text": "Now, when we save layers, we can save it directly to our DB.  E.g., reproject a layer, choose to save it to a database, select the schema and pick a name...  Within PostGIS we have the ability to index geometries for our layers which speeds recall and query for spatial operations, as compared to a flat file  When opening a totally new project, the PostGIS connect will persist, and can even bring in its tables  One consideration though is permissions, where we may or may not want to allow users to make changes to centrally-accessible", 
+            "title": "Perks &amp; Pitfalls of being connected"
+        }, 
+        {
+            "location": "/loading_from_DB/#loading-data-from-a-database-connection", 
+            "text": "", 
+            "title": "Loading data from a Database connection"
+        }, 
+        {
+            "location": "/loading_from_DB/#from-the-sidebar", 
+            "text": "", 
+            "title": "From the sidebar"
+        }, 
+        {
+            "location": "/loading_from_DB/#using-the-qgis-db-manager", 
+            "text": "The DB Manager has a bunch of useful features, it allows you to browse and preview data before adding it to the canvas and has a decent system for writing and saving SQL queries.", 
+            "title": "Using the QGIS DB Manager"
+        }, 
+        {
+            "location": "/loading_from_DB/#query-example", 
+            "text": "Can use PostGIS scripting for queries, e.g. \"SELECT ST_BUFFER(ST_TRANSFORM(\"geom\", 3435), 300) FROM potholes\"    This command reprojects the data, then creates a buffer. Here, we don't need to create something for each intermediate step. In effect, QGIS can then just become a viewer rather than a tool.    Could also add CREATE TABLE buffer AS (.) around the above to create a new table. Just need to refresh the connection for this to reappear.    Or, could add SELECT * FROM someothertable WHERE someothertable.geom INTERSECTS (.) to use the buffer as a subquery to an operation that identifies the intersection    Operations are remarkably fast    There are ways to install query builder plugins in QGIS to write queries here rather than having to jump out of QGIS and back into PostGIS", 
+            "title": "Query Example"
         }, 
         {
             "location": "/loading_from_DB/#spatiallite", 
-            "text": "", 
+            "text": "Spatiallite is a similar setup to Posgres/PostGIS, but it's built of SQLite. Its small and lightweight, with the entire database being stored as a single file.  It can do many of the similar geospatial queries as PostGIS, but in general is not as performant.", 
             "title": "SpatialLite"
         }, 
         {
             "location": "/loading_from_DB/#geopackage", 
-            "text": "", 
+            "text": "What is GeoPackage? It's a version of SpatialLite customized. Smaller, maybe faster? Not sure why people aren't using these widely yet but no reason not to.", 
             "title": "GeoPackage"
         }, 
         {
             "location": "/loading_raster_data/", 
-            "text": "Loading Raster Data\n\n\nWhat is Raster Data?\n\n\nCommon Formats\n\n\nLoading Raster Data\n\n\nGeo-Referencing Raster Data", 
+            "text": "Loading Raster Data\n\n\nWhat is Raster Data?\n\n\nCommon Formats\n\n\nLoading Raster Data\n\n\nNon-referenced JPG\n\n\n\n\nGeo-Referencing Raster Data", 
             "title": "Raster Data"
         }, 
         {
@@ -196,13 +236,18 @@
             "title": "Common Formats"
         }, 
         {
+            "location": "/loading_raster_data/#non-referenced-jpg", 
+            "text": "", 
+            "title": "Non-referenced JPG"
+        }, 
+        {
             "location": "/loading_raster_data/#geo-referencing-raster-data", 
             "text": "", 
             "title": "Geo-Referencing Raster Data"
         }, 
         {
             "location": "/Styling/", 
-            "text": "Styling Your Layers\n\n\nStyling layers\n\n\nRight-click on layers and go to \"Properties\" and select \"Style\" on the left-hand menu\n\n\nDefault (indicated at the top left) is \"Single Symbol\" which is one marker/color\n\n\nFrom this menu, can change marker styles, colors, sizes, map units, transparency, rotation\n\n\nParameters can be overridden based on expressions that can be written. To do so, click the button to the right\n\n\nThe top left drop-down allows for\n\n\nsingle symbol (default)\n\n\ncategorized (good for categorical),\n\n\ngraduated (good for numeric data)\n\n\nPick a column to classify the data\n\n\nCan specify a number of classes and a scheme for dividing them, e.g. \"equal interval\", \"quantile\", \"natural breaks\", and can manually edit these\n\n\nCan look at the values in the histogram by clicking on the \"Histogram\" tab (which is at the same level as the \"Classes\" tab)\n\n\nrule-based (combine other stylizations based on rules that the user sets out),\n\n\nDefault rules will be created starting with other methods\n\n\nHeat-map (simple to use)\n\n\nCan play with rendering quality, color ramp, weight of different points\n\n\nFancy Time Animation!\n\n\nCreating time animation\n\n\nAdd the \"TimeManager\" plugin\n\n\nThis adds a new window at the bottom\n\n\nUnder Settings menu can\n\n\nAdd a layer: select a layer, column of interest (and time units if desired)\n\n\nSelect how to play back e.g. time increments, speed of display\n\n\nHave a button to \"export video\"", 
+            "text": "Styling Your Layers\n\n\nStyling layers\n\n\nRight-click on layers and go to \"Properties\" and select \"Style\" on the left-hand menu\n\n\nDefault (indicated at the top left) is \"Single Symbol\" which is one marker/color\n\n\nFrom this menu, can change marker styles, colors, sizes, map units, transparency, rotation\n\n\nParameters can be overridden based on expressions that can be written. To do so, click the button to the right\n\n\nThe top left drop-down allows for\n\n\nsingle symbol (default)\n\n\ncategorized (good for categorical),\n\n\ngraduated (good for numeric data)\n\n\n\n\n\n\nPick a column to classify the data\n\n\nCan specify a number of classes and a scheme for dividing them, e.g. \"equal interval\", \"quantile\", \"natural breaks\", and can manually edit these\n\n\nCan look at the values in the histogram by clicking on the \"Histogram\" tab (which is at the same level as the \"Classes\" tab)\n\n\nrule-based (combine other stylizations based on rules that the user sets out),\n\n\nDefault rules will be created starting with other methods\n\n\nHeat-map (simple to use)\n\n\nCan play with rendering quality, color ramp, weight of different points\n\n\n\n\nFancy Time Animation!\n\n\n\n\nAdd the \"TimeManager\" plugin\n\n\nThis adds a new window at the bottom\n\n\nUnder Settings menu can\n\n\nAdd a layer: select a layer, column of interest (and time units if desired)\n\n\nSelect how to play back e.g. time increments, speed of display\n\n\nHave a button to \"export video\"", 
             "title": "Styling"
         }, 
         {
@@ -212,12 +257,12 @@
         }, 
         {
             "location": "/Styling/#styling-layers", 
-            "text": "Right-click on layers and go to \"Properties\" and select \"Style\" on the left-hand menu  Default (indicated at the top left) is \"Single Symbol\" which is one marker/color  From this menu, can change marker styles, colors, sizes, map units, transparency, rotation  Parameters can be overridden based on expressions that can be written. To do so, click the button to the right  The top left drop-down allows for  single symbol (default)  categorized (good for categorical),  graduated (good for numeric data)  Pick a column to classify the data  Can specify a number of classes and a scheme for dividing them, e.g. \"equal interval\", \"quantile\", \"natural breaks\", and can manually edit these  Can look at the values in the histogram by clicking on the \"Histogram\" tab (which is at the same level as the \"Classes\" tab)  rule-based (combine other stylizations based on rules that the user sets out),  Default rules will be created starting with other methods  Heat-map (simple to use)  Can play with rendering quality, color ramp, weight of different points", 
+            "text": "Right-click on layers and go to \"Properties\" and select \"Style\" on the left-hand menu  Default (indicated at the top left) is \"Single Symbol\" which is one marker/color  From this menu, can change marker styles, colors, sizes, map units, transparency, rotation  Parameters can be overridden based on expressions that can be written. To do so, click the button to the right  The top left drop-down allows for  single symbol (default)  categorized (good for categorical),  graduated (good for numeric data)    Pick a column to classify the data  Can specify a number of classes and a scheme for dividing them, e.g. \"equal interval\", \"quantile\", \"natural breaks\", and can manually edit these  Can look at the values in the histogram by clicking on the \"Histogram\" tab (which is at the same level as the \"Classes\" tab)  rule-based (combine other stylizations based on rules that the user sets out),  Default rules will be created starting with other methods  Heat-map (simple to use)  Can play with rendering quality, color ramp, weight of different points", 
             "title": "Styling layers"
         }, 
         {
             "location": "/Styling/#fancy-time-animation", 
-            "text": "Creating time animation  Add the \"TimeManager\" plugin  This adds a new window at the bottom  Under Settings menu can  Add a layer: select a layer, column of interest (and time units if desired)  Select how to play back e.g. time increments, speed of display  Have a button to \"export video\"", 
+            "text": "Add the \"TimeManager\" plugin  This adds a new window at the bottom  Under Settings menu can  Add a layer: select a layer, column of interest (and time units if desired)  Select how to play back e.g. time increments, speed of display  Have a button to \"export video\"", 
             "title": "Fancy Time Animation!"
         }, 
         {
@@ -252,7 +297,7 @@
         }, 
         {
             "location": "/Selecting_and_Modifying Data/", 
-            "text": "Selecting and Modifying Data\n\n\nSelecting Data by 'Hand'\n\n\nESPG etc\n\n\nSelect by Expression\n\n\nIntersections, etc\n\n\nModifying Attribute Data\n\n\nEverything in it's right place\n\n\nGeoprocessing!\n\n\nBuffer\nUnion\n\n\nJoining Data By Attribute\n\n\nJoining Data By Spatial Location", 
+            "text": "Selecting and Modifying Data\n\n\nSelecting Data by 'Hand'\n\n\nESPG etc\n\n\nSelect by Expression\n\n\nIntersections, etc\n\n\nModifying Attribute Data\n\n\nEverything in it's right place\n\n\nGeoprocessing!\n\n\nBuffer\nUnion\n\n\nJoining Data By Attribute\n\n\nUsing Layer Properties\n\n\n\n\nUsing the Toolbox\n\n\n\n\nJoining Data By Location (Spatial Join)", 
             "title": "Selecting and Modifying Data"
         }, 
         {
@@ -286,19 +331,39 @@
             "title": "Joining Data By Attribute"
         }, 
         {
-            "location": "/Selecting_and_Modifying Data/#joining-data-by-spatial-location", 
+            "location": "/Selecting_and_Modifying Data/#using-layer-properties", 
             "text": "", 
-            "title": "Joining Data By Spatial Location"
+            "title": "Using Layer Properties"
+        }, 
+        {
+            "location": "/Selecting_and_Modifying Data/#using-the-toolbox", 
+            "text": "", 
+            "title": "Using the Toolbox"
+        }, 
+        {
+            "location": "/Selecting_and_Modifying Data/#joining-data-by-location-spatial-join", 
+            "text": "", 
+            "title": "Joining Data By Location (Spatial Join)"
         }, 
         {
             "location": "/Concepts/", 
-            "text": "Concepts\n\n\nCoordinate Reference Systems (CRS)\n\n\nESPG etc\n\n\nWhat are Projections anyways?\n\n\nGeographic vs Projected systems\n\n\nGeometric Predicates", 
+            "text": "Concepts\n\n\nSQL queries\n\n\nDatabase Connections\n\n\nCoordinate Reference Systems (CRS)\n\n\nESPG etc\n\n\nWhat are Projections anyways?\n\n\nGeographic vs Projected systems\n\n\nGeometric Predicates\n\n\nQGIS Plugins\n\n\nPlugin repository", 
             "title": "Concepts"
         }, 
         {
             "location": "/Concepts/#concepts", 
             "text": "", 
             "title": "Concepts"
+        }, 
+        {
+            "location": "/Concepts/#sql-queries", 
+            "text": "", 
+            "title": "SQL queries"
+        }, 
+        {
+            "location": "/Concepts/#database-connections", 
+            "text": "", 
+            "title": "Database Connections"
         }, 
         {
             "location": "/Concepts/#coordinate-reference-systems-crs", 
@@ -319,6 +384,11 @@
             "location": "/Concepts/#geometric-predicates", 
             "text": "", 
             "title": "Geometric Predicates"
+        }, 
+        {
+            "location": "/Concepts/#qgis-plugins", 
+            "text": "Plugin repository", 
+            "title": "QGIS Plugins"
         }
     ]
 }

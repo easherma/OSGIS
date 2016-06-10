@@ -97,7 +97,11 @@
                 
                     <li><a class="toctree-l4" href="#database-connections">Database Connections</a></li>
                 
-                    <li><a class="toctree-l4" href="#postgis">PostGIS</a></li>
+                    <li><a class="toctree-l4" href="#postgres-with-postgis">Postgres with PostGIS</a></li>
+                
+                    <li><a class="toctree-l4" href="#from-the-sidebar">From the sidebar</a></li>
+                
+                    <li><a class="toctree-l4" href="#using-the-qgis-db-manager">Using the QGIS DB Manager</a></li>
                 
                     <li><a class="toctree-l4" href="#spatiallite">SpatialLite</a></li>
                 
@@ -209,33 +213,30 @@
               
                 <h1 id="loading-from-databases">Loading from Databases</h1>
 <h2 id="database-connections">Database Connections</h2>
-<h2 id="postgis">PostGIS</h2>
-<p>Clicking on "Watch file" -- e.g. if you have the file open in another
-window, QGIS will automatically update the version</p>
-<ul>
-<li>Working with Postgres</li>
-</ul>
-<p>o We downloaded PostgreSQL from enterprisedb.com o The name "PostgreSQL" has its origins in being a system came after the INteractive Graphics REtrieval System ("Ingres") system. Thus "Post-Ingres" or "Postgres" for short, although the official name still is PostgreSQL.</p>
-<p>o We have an installed template</p>
-<p>o From in QGIS, can click on the +Postgres button (with the elephant) on the left</p>
-<ul>
-<li>
+<p>Accessing data stored in a relational database works a bit differently than loading a flat file.</p>
+<p>You must create a connection to the database.</p>
+<p>Once that connection is established you can load, query, and modify that data directly, using QGIS as an interface.</p>
+<h2 id="postgres-with-postgis">Postgres with PostGIS</h2>
+<h3 id="working-with-postgres">Working with Postgres</h3>
+<p>Postgres is a popular open source relational database system.</p>
+<p>PostGIS is an extension for Postgres that adds geospatial data types to any Postgres database, along with a suite of powerful geosptial tools.</p>
+<h3 id="making-a-connection">Making a Connection</h3>
 <p>We point to our template, port, username and password</p>
-</li>
-<li>
 <p>The outcome is that we have established a connection and can access the information here (although we only have a template schema so far, and not data!)</p>
-</li>
-</ul>
-<p>o Now, when we save layers, we can save it to our DB</p>
-<ul>
-<li>E.g., reproject a layer, choose to save it to a database, select the schema and pick a name...</li>
-</ul>
-<p>o Within PostGIS we have the ability to index geometries for our layers which speeds recall and query for spatial operations, as compared to a flat file</p>
-<p>o When opening a totally new project, the PostGIS connect will persist, and can even bring in its tables</p>
-<ul>
-<li>One consideration though is permissions, where we may or may not want to allow users to make changes to centrally-accessible</li>
-</ul>
-<p>o Can use PostGIS scripting for queries, e.g. "SELECT ST_BUFFER(ST_TRANSFORM("geom", 3435), 300) FROM potholes"</p>
+<h3 id="perks-pitfalls-of-being-connected">Perks &amp; Pitfalls of being connected</h3>
+<p>Now, when we save layers, we can save it directly to our DB.</p>
+<p>E.g., reproject a layer, choose to save it to a database, select the schema and pick a name...</p>
+<p>Within PostGIS we have the ability to index geometries for our layers which speeds recall and query for spatial operations, as compared to a flat file</p>
+<p>When opening a totally new project, the PostGIS connect will persist, and can even bring in its tables</p>
+<p>One consideration though is permissions, where we may or may not want to allow users to make changes to centrally-accessible</p>
+<h3 id="loading-data-from-a-database-connection">Loading data from a Database connection</h3>
+<h2 id="from-the-sidebar">From the sidebar</h2>
+<p><img alt="" src="../video/loadDB1.gif" /></p>
+<h2 id="using-the-qgis-db-manager">Using the QGIS DB Manager</h2>
+<p>The DB Manager has a bunch of useful features, it allows you to browse and preview data before adding it to the canvas and has a decent system for writing and saving SQL queries. 
+<img alt="" src="../video/loadDB2.gif" /></p>
+<h3 id="query-example">Query Example</h3>
+<p>Can use PostGIS scripting for queries, e.g. "SELECT ST_BUFFER(ST_TRANSFORM("geom", 3435), 300) FROM potholes"</p>
 <ul>
 <li>
 <p>This command reprojects the data, then creates a buffer. Here, we don't need to create something for each intermediate step. In effect, QGIS can then just become a viewer rather than a tool.</p>
@@ -254,7 +255,10 @@ window, QGIS will automatically update the version</p>
 </li>
 </ul>
 <h2 id="spatiallite">SpatialLite</h2>
+<p>Spatiallite is a similar setup to Posgres/PostGIS, but it's built of SQLite. Its small and lightweight, with the entire database being stored as a single file.</p>
+<p>It can do many of the similar geospatial queries as PostGIS, but in general is not as performant.</p>
 <h2 id="geopackage">GeoPackage</h2>
+<p>What is GeoPackage? It's a version of SpatialLite customized. Smaller, maybe faster? Not sure why people aren't using these widely yet but no reason not to.</p>
               
             </div>
           </div>
