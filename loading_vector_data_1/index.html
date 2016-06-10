@@ -87,17 +87,7 @@
                 
                     <li><a class="toctree-l4" href="#excelxlsx">Excel(xlsx)</a></li>
                 
-                    <li><a class="toctree-l4" href="#click-and-drag-from-os-browser">Click and drag from OS browser</a></li>
-                
-                    <li><a class="toctree-l4" href="#create-geometry-from-columns">Create geometry from columns</a></li>
-                
-                    <li><a class="toctree-l4" href="#shape-files">Shape Files</a></li>
-                
-                    <li><a class="toctree-l4" href="#drag-and-drop">Drag and Drop</a></li>
-                
-                    <li><a class="toctree-l4" href="#add-vector-layer-button">Add Vector Layer button</a></li>
-                
-                    <li><a class="toctree-l4" href="#create-spatial-index">Create Spatial Index</a></li>
+                    <li><a class="toctree-l4" href="#shapefiles">Shapefiles</a></li>
                 
                     <li><a class="toctree-l4" href="#geojson">GeoJSON</a></li>
                 
@@ -221,27 +211,28 @@
               
                 <h1 id="loading-vector-data">Loading Vector Data</h1>
 <h2 id="loading-csv-and-other-delineated-data">Loading CSV (and other delineated data)</h2>
-<p>Adding in delimited data</p>
 <p><img alt="Load CSV Demo" src="../video/loadcsv.gif" /></p>
-<p>The big comma represents delimited (e.g. "comma" delimited or csv) files</p>
-<p>The "create layer" window has a number of format-specific options, such as indicating what delimiter is used, allows users to skip a given number of rows, indicate geometric information present in the table (e.g. auto-detecting
-latitude and longitude)</p>
+<p>The big comma icon represents delimited (e.g. "comma" delimited or csv) files</p>
+<p>The "create layer" window has a number of format-specific options, such as indicating what delimiter is used, allows users to skip a given number of rows, and indicate geometric information present in the table. Our case, QGIS automatically found our Latitude and Longitude columns and suggested them to be used to create our geometric data for this layer.</p>
+<p>If you are loading in data that has no inherent geometry, simply select the 'No geometry' option.</p>
 <h2 id="watch-a-file">Watch a file</h2>
-<p>Clicking on "Watch file" -- e.g. if you have the file open in another
-window, QGIS will automatically update the version</p>
+<p>If you choose to watch the file, QGIS will automatically update the data in the layer if the csv file is modified.</p>
 <h2 id="excelxlsx">Excel(xlsx)</h2>
-<h2 id="click-and-drag-from-os-browser">Click and drag from OS browser</h2>
+<p>Qgis can handle xls and xlsx files, but plays much nicer with the newer xlsx format.</p>
+<h3 id="click-and-drag-from-os-browser">Click and drag from OS browser</h3>
 <p><img alt="" src="../video/loadexcel1.gif" /></p>
-<h2 id="create-geometry-from-columns">Create geometry from columns</h2>
+<h3 id="create-geometry-from-columns">Create geometry from columns</h3>
 <p><img alt="" src="../video/loadexcel2.gif" /></p>
-<h2 id="shape-files">Shape Files</h2>
-<h2 id="drag-and-drop">Drag and Drop</h2>
+<h2 id="shapefiles">Shapefiles</h2>
+<p>Shapefiles are a ubiquitous, yet antiquated  geospatial file format. Despite their many limitations and the annoying problems they present, you will likely still come across them.</p>
+<h3 id="drag-and-drop">Drag and Drop</h3>
 <p><img alt="" src="../video/loadshp.gif" /></p>
-<h2 id="add-vector-layer-button">Add Vector Layer button</h2>
+<h3 id="add-vector-layer-button">Add Vector Layer button</h3>
 <p><img alt="" src="../video/loadshp2.gif" /></p>
-<h2 id="create-spatial-index">Create Spatial Index</h2>
+<h3 id="create-spatial-index">Create Spatial Index</h3>
 <p><img alt="" src="../video/shpspatialindex.gif" /></p>
 <h2 id="geojson">GeoJSON</h2>
+<p>GeoJSON is a widely geospatial data format, most prevalent in web development. It allows for a human and machine-readable exchange of data. These files are often larger than other formats and cannot be directly edited by QGIS, but they are very convenient otherwise.</p>
 <p><img alt="" src="../video/loadgeojson.gif" /></p>
               
             </div>
