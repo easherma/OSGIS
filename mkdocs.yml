@@ -1,6 +1,10 @@
 site_name: OSGISOMG
+site_url: http://www.osgisomg.com
 theme: readthedocs
-google_analytics: ['UA-80645081-1', 'www.osgisomg.com']
+google_analytics: ['UA-80645081-1', 'osgisomg.com']
+repo_url: https://github.com/easherma/OSGIS
+site_description: Guide for Open Source Geographic Information tasks.
+site_author: Eric Sherman
 
 pages:
 - index.md
