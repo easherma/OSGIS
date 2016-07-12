@@ -8,16 +8,17 @@ site_author: Eric Sherman
 
 pages:
 - index.md
-- Loading Data:
-  - loading_data.md
-  - 'Vector Data': loading_vector_data_1.md
-  - 'Adding Basemaps': loading_basemaps_and_other_external_data.md
-  - 'Loading From Databases': loading_from_DB.md
-  - 'Raster Data': loading_raster_data.md
-- Styling and Sharing:
-  - Styling.md
-  - Sharing_Your_Map.md
-- Managing, Manipulating, Creating Data:
-  - Selecting_and_Modifying Data.md
-- GIS Concepts Glossary:
-  - Concepts.md
+- QGIS (2.14.2):
+  - What is QGIS?: qgis.md
+  - Loading Data:
+    - Overview: loading_data.md
+    - 'Vector Data': loading_vector_data_1.md
+    - 'Adding Basemaps': loading_basemaps_and_other_external_data.md
+    - 'Loading From Databases': loading_from_DB.md
+    - 'Raster Data': loading_raster_data.md
+  - Styling and Sharing:
+    - Styling.md
+    - Sharing_Your_Map.md
+  - Managing, Manipulating, Creating Data:
+    - Selecting_and_Modifying Data.md
+- GIS Concepts Glossary: Concepts.md
