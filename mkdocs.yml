@@ -1,5 +1,6 @@
 site_name: OSGISOMG
 theme: readthedocs
+google_analytics: ['UA-80645081-1', 'www.osgisomg.com']
 
 pages:
 - index.md
