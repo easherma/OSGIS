@@ -2,13 +2,28 @@
     "docs": [
         {
             "location": "/", 
-            "text": "OSGIS\n\n\nGuides for basic Open Source GIS tasks\n\n\nMostly Vector data, social science/civic tech focus", 
+            "text": "OSGIS: Guides for basic GIS tasks using Open Source tools\n\n\nO\npen \nS\nource:\n\n\nMostly Vector data, social science/civic tech focus\n\n\nFree Software is not Free Beer      \n\n\nG\neographic \nI\nnformation \nS\nystems:\n\n\nEverything in it's right place      \n\n\nO\nh \nM\ny \nG\nod:", 
             "title": "Home"
         }, 
         {
-            "location": "/#osgis", 
-            "text": "Guides for basic Open Source GIS tasks  Mostly Vector data, social science/civic tech focus", 
-            "title": "OSGIS"
+            "location": "/#osgis-guides-for-basic-gis-tasks-using-open-source-tools", 
+            "text": "", 
+            "title": "OSGIS: Guides for basic GIS tasks using Open Source tools"
+        }, 
+        {
+            "location": "/#open-source", 
+            "text": "Mostly Vector data, social science/civic tech focus  Free Software is not Free Beer", 
+            "title": "Open Source:"
+        }, 
+        {
+            "location": "/#geographic-information-systems", 
+            "text": "Everything in it's right place", 
+            "title": "Geographic Information Systems:"
+        }, 
+        {
+            "location": "/#oh-my-god", 
+            "text": "", 
+            "title": "Oh My God:"
         }, 
         {
             "location": "/loading_data/", 
@@ -267,7 +282,7 @@
         }, 
         {
             "location": "/Sharing_Your_Map/", 
-            "text": "Sharing Your Beautiful Map!\n\n\nChoose Your Own Adventure: Multiple Ways to Publish!\n\n\nSharing Data and QGIS style information\n\n\nSaving Data\nLoading Styles\n\n\n'Flat' maps\n\n\nPrint Composer\n\n\nWeb-based, dynamic maps\n\n\nqgis2web\nLeaflet\nOpenLayers", 
+            "text": "Sharing Your Beautiful Map!\n\n\nChoose Your Own Adventure: Multiple Ways to Publish!\n\n\nSharing Data and QGIS style information\n\n\nSaving Data\n\n\n\n\nSaving, Loading Styles\n\n\n\n\nCopy Styles\n\n\nLoading Styles\n\n\n'Flat' maps\n\n\nPrint Composer\n\n\n\n\n\n\nWeb-based, dynamic maps\n\n\nqgis2web\nLeaflet\nOpenLayers", 
             "title": "Sharing Your Map"
         }, 
         {
@@ -282,7 +297,7 @@
         }, 
         {
             "location": "/Sharing_Your_Map/#sharing-data-and-qgis-style-information", 
-            "text": "Saving Data\nLoading Styles", 
+            "text": "Saving Data   Saving, Loading Styles   Copy Styles \nLoading Styles", 
             "title": "Sharing Data and QGIS style information"
         }, 
         {
