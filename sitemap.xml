@@ -3,7 +3,7 @@
 
     
     <url>
-     <loc>http://www.osgisomg.com/</loc>
+     <loc>None/</loc>
      <lastmod>2016-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -12,47 +12,31 @@
     
         
     <url>
-     <loc>http://www.osgisomg.com/loading_data/</loc>
+     <loc>None/loading_data/</loc>
      <lastmod>2016-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>http://www.osgisomg.com/loading_vector_data_1/</loc>
+     <loc>None/loading_vector_data_1/</loc>
      <lastmod>2016-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>http://www.osgisomg.com/loading_basemaps_and_other_external_data/</loc>
+     <loc>None/loading_basemaps_and_other_external_data/</loc>
      <lastmod>2016-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>http://www.osgisomg.com/loading_from_DB/</loc>
+     <loc>None/loading_from_DB/</loc>
      <lastmod>2016-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>http://www.osgisomg.com/loading_raster_data/</loc>
-     <lastmod>2016-07-12</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>http://www.osgisomg.com/Styling/</loc>
-     <lastmod>2016-07-12</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>http://www.osgisomg.com/Sharing_Your_Map/</loc>
+     <loc>None/loading_raster_data/</loc>
      <lastmod>2016-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -62,7 +46,13 @@
     
         
     <url>
-     <loc>http://www.osgisomg.com/Selecting_and_Modifying Data/</loc>
+     <loc>None/Styling/</loc>
+     <lastmod>2016-07-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/Sharing_Your_Map/</loc>
      <lastmod>2016-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -72,7 +62,17 @@
     
         
     <url>
-     <loc>http://www.osgisomg.com/Concepts/</loc>
+     <loc>None/Selecting_and_Modifying Data/</loc>
+     <lastmod>2016-07-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>None/Concepts/</loc>
      <lastmod>2016-07-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
