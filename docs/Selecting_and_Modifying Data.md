@@ -16,5 +16,10 @@ Buffer
 Union
 
 ## Joining Data By Attribute
+### Using Layer Properties
+![](video/joinAttributes1.gif)
+### Using the Toolbox
+![](video/joinAttributes2.gif)
 
-## Joining Data By Spatial Location
+## Joining Data By Location (Spatial Join)
+![](video/spatialJoin.gif)

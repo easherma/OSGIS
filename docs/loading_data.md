@@ -15,7 +15,7 @@ Clearly, the first thing you need to do before loading data is find it. As we ta
 ### To use the file browser panel or not to use the file browser panel...
 Do this whichever way you'd like. Personally, I'd disable the Browser Panel to free up that space inside the QGIS GUI becuase I like seeing every inch of the beautiful maps I make. ;-)
 
-![Browser](.\images\browser.png)
+![Browser](.\images\browser.PNG)
 *You can find and add data using the browser panel in QGIS or by dragging files from your operating system*
 
 
@@ -23,11 +23,11 @@ Do this whichever way you'd like. Personally, I'd disable the Browser Panel to f
 
 You can also add layers using the 'Manage Toolbar Layers' toolbar or under the Layer menu.
 
-![Browser](.\images\AddLayer.png)
+![Browser](.\images\AddLayer.PNG)
 
 ### These all do the same thing
 
-![Browser](.\images\AddVector.png) **=** ![Browser](.\images\AddVector2.png) **=**
+![Browser](.\images\AddVector.PNG) **=** ![Browser](.\images\AddVector2.PNG) **=**
 
 ![Browser](.\video\vectorAdd.gif)
 

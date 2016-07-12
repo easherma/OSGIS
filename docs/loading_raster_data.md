@@ -6,4 +6,8 @@
 
 Loading Raster Data
 
+## Non-referenced JPG
+
+![](video/loadRaster.gif)
+
 ## Geo-Referencing Raster Data
