@@ -31,9 +31,24 @@
             "title": "Oh My God:"
         }, 
         {
+            "location": "/qgis/", 
+            "text": "QGIS\n\n\nWhat is QGIS?\n\n\nQGIS is FOSS Desktop Software. It uses lots of acronyms, so you know its fast and efficient. It's so amazing, I don't even have time to talk about how amazing it is cause I'm too busy using it to make beautiful maps!", 
+            "title": "What is QGIS?"
+        }, 
+        {
+            "location": "/qgis/#qgis", 
+            "text": "", 
+            "title": "QGIS"
+        }, 
+        {
+            "location": "/qgis/#what-is-qgis", 
+            "text": "QGIS is FOSS Desktop Software. It uses lots of acronyms, so you know its fast and efficient. It's so amazing, I don't even have time to talk about how amazing it is cause I'm too busy using it to make beautiful maps!", 
+            "title": "What is QGIS?"
+        }, 
+        {
             "location": "/loading_data/", 
             "text": "Loading Data Overview\n\n\nFile Formats\n\n\nOpen Source Flexibility\n\n\nQGIS is very flexible with file formats, which is a wonderful thing given the wide variety of spatial data formats you'll come across.\n\n\nMost, if not all, of QGIS's functionality regarding file formats is thanks to \nGDAL/OGR\n. Thanks, \nOSGeo\n!\n\n\nCrusin' for Files (Before Ye Fetch, Ye Must Find)\n\n\nClearly, the first thing you need to do before loading data is find it. As we talk about in customizing the UI, there are often multiple ways to do similar things in QGIS. You can browser for data using the browser panel inside QGIS, or you can use your operating system to find a file (which you are probably already comfortable with) and drag it into the Layers panel. There are some slight differences between the two, which aren't worth getting into here. For the vast majority of the cases, either way will work.\n\n\nTo use the file browser panel or not to use the file browser panel...\n\n\nDo this whichever way you'd like. Personally, I'd disable the Browser Panel to free up that space inside the QGIS GUI becuase I like seeing every inch of the beautiful maps I make. ;-)\n\n\n\n\nYou can find and add data using the browser panel in QGIS or by dragging files from your operating system\n\n\nAdding Layers\n\n\nYou can also add layers using the 'Manage Toolbar Layers' toolbar or under the Layer menu.\n\n\n\n\nThese all do the same thing\n\n\n \n=\n \n \n=\n\n\n\n\nConnect to DB\n\n\nSpecial case, either talk about it here or just link to seperate section.\n\n\nSpatial Indexing\n\n\nClicking on \"Use spatial index\" allows for faster referencing of layer\ncontents\n\n\nSpecify Your CRS ASAP\n\n\nAfter adding CSV, need to specify a Coordinate Reference System (or\n\"CRS\") in the \"Coordinate Reference System Selector\"\n\n\nWe picked \"WGS 84/4326\" which is the most commonly used Geographic\nCoordinate SystemGeographic\n\n\nThis window tracks recent reference systems (and there are only so many\nthat you'll typically use if you're focused on a specific geography)\n\n\nCan see the definition of the CRS in the very bottom field to compare different", 
-            "title": "Loading data"
+            "title": "Overview"
         }, 
         {
             "location": "/loading_data/#loading-data-overview", 
@@ -368,7 +383,7 @@
         {
             "location": "/Concepts/", 
             "text": "Concepts\n\n\nSQL queries\n\n\nDatabase Connections\n\n\nCoordinate Reference Systems (CRS)\n\n\nESPG etc\n\n\nWhat are Projections anyways?\n\n\nGeographic vs Projected systems\n\n\nGeometric Predicates\n\n\nQGIS Plugins\n\n\nPlugin repository", 
-            "title": "Concepts"
+            "title": "GIS Concepts Glossary"
         }, 
         {
             "location": "/Concepts/#concepts", 
